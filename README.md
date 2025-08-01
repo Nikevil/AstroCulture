@@ -324,16 +324,4 @@ For truly personalized horoscopes instead of zodiac-specific ones:
 4. **Event Sourcing**: Track all user interactions for better personalization
 5. **A/B Testing**: Test different horoscope styles and content
 
-## 🛠️ AI Tool Usage
-
-This project was developed with assistance from AI tools for:
-- Code generation and structure
-- Documentation writing
-- Best practices implementation
-- Error handling patterns
-
-The core logic, business requirements, and architectural decisions were made by the developer with AI assistance for implementation details.
-
 ---
-
-**Note**: This is a demonstration project. For production use, ensure proper security measures, environment configuration, and thorough testing. 
