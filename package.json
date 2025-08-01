@@ -1,0 +1,39 @@
+{
+  "name": "personalized-horoscope-api",
+  "version": "1.0.0",
+  "description": "A Node.js backend service that generates and serves personalized daily horoscopes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js server.js",
+    "dev": "nodemon --env-file=.env server.js",
+    "test": "jest --detectOpenHandles",
+    "seed": "node scripts/seed.js",
+    "test-api": "node scripts/test-api.js"
+  },
+  "keywords": [
+    "horoscope",
+    "api",
+    "zodiac",
+    "nodejs",
+    "express"
+  ],
+  "author": "Niket Paliwal",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
